@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+li{
+    width: 44vw;
+    padding: 0.7vw;
+    text-align: left;
+    position:relative;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    background-color: #3E7CB1;
+    color:white;
+    font-size: 2vw;
+    width: 45vw;
+    margin:1vw 0vw 0vw 2vw;
+}
+
+body{
+    background-image: url("background.jpg");
+    display: flex;
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    flex-direction: column;
+    background-size:100%;
+    align-items: center;
+    padding: 2vw;
+}
+#heading{
+    width: 80vw;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    background-image: url(heading.jpg);
+    font-size: 5vw;
+    height: 10vw;
+}
+input[type=text]{
+    font-family: 'Rowdies', cursive;
+    margin-top: 1vw;
+    border: 2px;
+    font-size: 2vw;
+    padding: 0.7vw;
+    width:20vw;
+}
+#add_btn
+{
+    border-radius: 1vw;
+    color: white;
+    width: 15vw;
+    padding:0.5vw;
+    background-color: green;
+    font-family: 'Rowdies', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2vw;
+    cursor:pointer;
+}
+#add_btn:hover{
+    box-shadow: 0vw 0vw 1vw black;
+    font-size: 2.2vw;
+    
+}
+#add_div
+{
+    margin-top: 1vw;
+    display: flex;
+    width: 49vw;
+    background-color: red;
+    font-family: 'Rowdies', cursive;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.delete
+{
+    font-size: 1.7vw;
+    padding: 0.5vw;
+    position:absolute;
+    background-color: #399e5a;
+    color: white;
+    border:none;
+    right:0.5vw;
+    top:0vw;
+}
