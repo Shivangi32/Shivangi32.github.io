@@ -1,0 +1,28 @@
+#add_btn
+{
+    border-radius: 1vw;
+    color: white;
+    width: 12vw;
+    padding:0.5vw;
+    background-color: green;
+    font-family: 'Rowdies', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.7vw;
+    cursor:pointer;
+}
+#add_btn:hover{
+    box-shadow: 0vw 0vw 1vw black;
+    width: 13vw;
+    font-size: 2vw;
+    
+}
+
+body{
+    background-image: url("background.jpg");
+    font-family: 'Rowdies', cursive;
+    background-size:100%;
+    display: flex;
+    justify-content: center;
+}
